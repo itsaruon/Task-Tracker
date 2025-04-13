@@ -1,0 +1,29 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.task-item button:hover {
+  background-color: #c0392b;
+}
+
+.complete {
+  color: green;
+  margin-left: 0.5rem;
+}
+
+.incomplete {
+  color: #999;
+  margin-left: 0.5rem;
+}
